@@ -5,12 +5,12 @@ import {Rockets} from "./Rockets.jsx";
 
 export const Main = () => {
     return <main className="mx-auto max-w-4xl">
-            <Hero/>
+        <Hero/>
         <hr className="mx-auto w-1/2 bg-black dark:bg-white"/>
-            <Rockets/>
+        <Rockets/>
         <hr className="mx-auto w-1/2 bg-black dark:bg-white"/>
-            <Testimonials/>
+        <Testimonials/>
         <hr className="mx-auto w-1/2 bg-black dark:bg-white"/>
-            <Contact/>
+        <Contact/>
     </main>;
 }
