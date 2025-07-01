@@ -1,5 +1,7 @@
 import {Rocket} from "./Rocket.jsx";
-
+import explorer from './assets/rocketman.png'
+import adventurer from './assets/rocketdab.png'
+import luxury from './assets/rocketlaunch.png'
 export const Rockets = () => {
     return (
         <section
@@ -14,12 +16,12 @@ export const Rockets = () => {
                     title={"Explorer"}
                     price={"$"}
                     text={"Affordable Exploration"}
-                    src={"src/assets/rocketman.png"}
+                    src={explorer}
                     alt="Explorer"
                 />
 
                 <Rocket
-                    src="src/assets/rocketdab.png"
+                    src={adventurer}
                     alt="Adventurer"
                     title={"Adventurer"}
                     price={"$$"}
@@ -27,7 +29,7 @@ export const Rockets = () => {
                 />
 
                 <Rocket
-                    src="src/assets/rocketlaunch.png"
+                    src={luxury}
                     alt="Infinity"
                     title={"Infinity"}
                     price={"$$$"}

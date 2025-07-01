@@ -1,3 +1,5 @@
+import rocket  from './assets/rocketdab.png'
+
 export const Hero = () => {
     return (
         <section
@@ -20,7 +22,7 @@ export const Hero = () => {
                     Think Acme Rockets.
                 </p>
             </article>
-            <img className="w-1/2" src="src/assets/rocketdab.png" alt="Rocket Dab"/>
+            <img className="w-1/2" src={rocket} alt="Rocket Dab"/>
         </section>
     );
 };
